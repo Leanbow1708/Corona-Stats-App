@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "750259661688",
+    "firebase_url": "https://corona-news-c551b.firebaseio.com",
+    "project_id": "corona-news-c551b",
+    "storage_bucket": "corona-news-c551b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750259661688:android:81b34c641251d481ce768d",
+        "android_client_info": {
+          "package_name": "com.example.coronanews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750259661688-ktc2qv6el3bhs4sj9ndumeig2lbs2am9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coronanews",
+            "certificate_hash": "6cde393370aeed157d243c71310a43e9e59cbd11"
+          }
+        },
+        {
+          "client_id": "750259661688-a6eerigdo18181tltgkni2kle3be7ivn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDft595tAUCyZlQHSSxXVM2XMeT5K9GLaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750259661688-a6eerigdo18181tltgkni2kle3be7ivn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

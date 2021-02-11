@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/row_news_feed"
+    android:paddingLeft="10sp"
+    android:paddingBottom="20sp"
+    android:paddingTop="20sp"
+    android:layout_marginBottom="20sp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="0sp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="1)"
+
+        android:id="@+id/txtNo"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:layout_width="0sp"
+        android:layout_weight="10"
+        android:layout_height="wrap_content">
+     <LinearLayout
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+
+
+         <ImageView
+             android:layout_marginLeft="50sp"
+             android:layout_width="20sp"
+             android:layout_height="20sp"
+             android:src="@drawable/news"/>
+         <TextView
+             android:layout_marginLeft="2sp"
+             android:text="The Times of India"
+             android:textSize="13sp"
+             android:id="@+id/txtSource"
+             android:textColor="#ffffff"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+
+
+
+     </LinearLayout>
+
+        <TextView
+
+            android:layout_marginTop="5sp"
+
+            android:layout_marginLeft="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:id="@+id/txtDesc"
+            android:text="India News: PM Narendra Modi will address the nation, second time in a week, at 8 PM on Tuesday on the coronavirus outbreak. Will address the nation at 8 PM toda"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/imgNext"
+        android:layout_weight="1"
+        android:layout_width="0sp"
+        android:layout_height="30sp"
+        android:src="@drawable/next"/>
+
+
+
+
+
+
+
+</LinearLayout>

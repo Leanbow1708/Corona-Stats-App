@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FDC391"
+    android:gravity="center"
+    android:paddingRight="5sp"
+    android:paddingLeft="5sp"
+    android:paddingTop="10sp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:paddingBottom="10sp"
+    android:layout_marginBottom="10sp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/unicef"
+            android:id="@+id/imgImage"
+            android:layout_width="30sp"
+            android:layout_height="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtName"
+            android:text="Unicef"
+           android:layout_marginLeft="10sp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="#000000"
+        />
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/txtContent"
+        android:maxWidth="300sp"
+        android:text="Get updated with the latest Coronavirus news"/>
+
+        <TextView
+            android:layout_marginTop="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit"
+            android:textSize="15sp"
+            android:id="@+id/btnVisit"
+            android:fontFamily="@font/montserrat_regular"
+            android:paddingBottom="10sp"
+            android:paddingTop="10sp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/row_items_helpline"/>
+
+
+
+
+</LinearLayout>

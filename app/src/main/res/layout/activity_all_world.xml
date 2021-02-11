@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_bkg_2"
+    android:layout_height="match_parent"
+    tools:context=".AllWorldActivity">
+
+
+    <include
+
+
+        android:id="@+id/includeSearch"
+        android:visibility="gone"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/search_bar_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="World COVID-19"
+
+            android:id="@+id/title"
+            android:layout_marginTop="10sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/montserrat_light"
+            android:textSize="20sp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:src="@drawable/search"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+    <LinearLayout
+        android:background="@drawable/main_bkg"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="10sp"
+        android:orientation="vertical"
+        android:paddingTop="30sp"
+        android:paddingLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginBottom="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_width="0sp"
+                android:layout_weight="2"
+                android:textColor="#1D2027"
+                android:layout_height="wrap_content"
+                android:id="@+id/row_no"
+                android:textSize="15sp"
+                android:text="Flag"/>
+            <TextView
+                android:gravity="center"
+                android:textColor="#1D2027"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_width="0sp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Country"
+                />
+            <TextView
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="#1D2027"
+                android:layout_width="0sp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Cases"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/countryRecycler"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

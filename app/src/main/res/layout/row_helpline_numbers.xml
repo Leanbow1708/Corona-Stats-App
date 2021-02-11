@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/row_items_helpline"
+    android:paddingLeft="10sp"
+    android:paddingEnd="10sp"
+    android:paddingTop="10sp"
+    android:layout_marginBottom="10sp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15sp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateName"
+        android:text="Gujarat"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNo"
+        android:text="9045001255"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/montserrat_light"
+        android:textSize="15sp"/>
+    <View
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="#ffffff"/>
+    <LinearLayout
+        android:layout_gravity="center"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="15sp"
+            android:layout_width="30sp"
+            android:id="@+id/imgCall"
+            android:layout_height="30sp"
+            android:src="@drawable/call"/>
+        <TextView
+            android:layout_marginLeft="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_gravity="bottom"
+
+            android:id="@+id/txtCall"
+            android:fontFamily="@font/montserrat_light"
+            android:textSize="18sp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
